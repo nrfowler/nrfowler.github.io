@@ -9,7 +9,7 @@ header{position: fixed; width: 100%; top: 0; height: 30px; background: black; co
     border-spacing: 15px;
 }
 caption{
-  font-size: 14px;
+  font-size: 12px;
 }
 /*
  * Social Buttons for Bootstrap
