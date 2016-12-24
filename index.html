@@ -1,93 +1,58 @@
+<!DOCTYPE HTML>
 <html>
-
-<head>
-  <meta http-equiv="Content-Type">
-  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" /> </head>
-
-<body>
-  <header>
-    <a type="button" class="btn" href="#home"> Home </a>
-    <a type="button" class="btn" href="#portfolio"> Projects </a>
-    <a type="button" class="btn" href="#links"> Links </a>
-    <a type="button" class="btn" href="#contact"> Contact </a>
-  </header>
-  <div style="margin:50px auto;">
-    <h1 id="home" align="center"> Nathan Fowler's Programming Porfolio </h1>
-    <br>
-<div align = "center" >
-  <h2 id="websites"> My Websites: </h2>
-    <br>
-   <h3><a href="http://4waychess.com" > 4waychess.com </a> </h3><div>
-
-   A website responsive to desktop, tablet, and mobile for playing 4 player chess. Built with AngularJS and Bootstrap. </div>
-   <div align = "center" >
-      <h2 id="portfolio"> My Open Source Projects: </h2>
-      <br>
-      <table class="thumbs">
-        <tr>
-
-          <td>
-            <table class="image">
-              <caption align="bottom">Creator of WhatDo: A Command Line Todolist in C++</caption>
-              <tr>
-                <td>
-                  <a href="https://github.com/nrfowler/whatdo"> <img src="http://nrfowler.github.com/whatdo.jpg" class="img-thumbnail img-rounded" alt="whatdo"></a>
-                </td>
-              </tr>
-            </table>
-          </td>
-          </tr>
-
-      </table>
-      <br>
-      <h3 id="links"> Open Source Projects I Contribute To: </h3>
-      <table class="thumbs">
-        <tr>
-      <td>
-            <table class="image">
-              <caption align="bottom">Contributer to <i>Catclysm: Dark Days Ahead</i></caption>
-              <tr>
-                <td>
-                  <a href="https://github.com/CleverRaven/Cataclysm-DDA/commits/?author=nrfowler"><img src="http://nrfowler.github.com/cdda.jpg" class="img-thumbnail img-rounded" alt="Cataclysm Dark Days Ahead"></a>
-                </td>
-                <tr>
-
-            </table>
-          </td>
-        </tr>
-      </table>
-
-      <div align="center">
-        <h3 id="links"> My Learning Programming Profiles: </h3>
-        <br>
-        <p><a href="https://www.codeschool.com/users/991411"> Code School</a></p>
-        <p><a href="https://www.freecodecamp.com/nrfowler"> Free Code Camp</a></p>
-        <p><a href="http://stackexchange.com/users/237949/lokor"> Stack Overflow</a></p>
-        <p><a href="https://profiles.udacity.com/u/nathanfowler"> Udacity Full Stack Development Nanodegree</a></p>
-        <br>
-        <div align="center">
-          <h3 id="links"> My Coding Repositories: </h3>
-          <br>
-          <p><a href="https://www.github.com/nrfowler"> Github</a></p>
-          <p><a href="http://codepen.io/nrfowler/"> CodePen</a></p>
-          <br>
-          <div align="center">
-            <h3 id="links"> My Coding Challenges Profiles: </h3>
-            <br>
-            <p><a href="https://www.hackerrank.com/nrfowler"> HackerRank</a></p>
-            <p><a href="https://www.codewars.com/users/nrfowler"> Codewars</a></p>
-            <p><a href="https://www.codingame.com/ide/5239139fefefcd40dfd2b574b310f12cb12c1d5"> CodinGame</a></p>
+  <head>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title> My App </title>
+    <meta name="viewport">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body class="container">
+    <div class="links col-md-2 col-sm-3 col-xs-12" >
+      <div class= "palette"><h5 >Contact Me: </h5></div>
+      <div class= "palette"><a type="button" class="btn btn-linkedin" href="https://www.linkedin.com/in/nrfowler" > <span class="fa-linkedin"> LinkedIn</span>  </a></div>
+      <div class= "palette"><a type="button" class="btn btn-github" href="https://www.github.com/nrfowler" > <span class="fa-github"> Github</span>  </a></div>
+      <div class= "palette"><a type="button" class="btn btn-facebook" href="http://facebook.com/lokor"> <span class="fa-facebook"> Facebook</span> </a></div>
+    </div>
+    <div class="main col-md-10 col-sm-10 row">
+      <header class="row">
+        <div id="logo-container" class="col-md-3 col-sm-7">
+        </div>
+        <div class="title col-md-7">
+          <h1> Nathan Fowler </h1>
+          <h2> Full Stack Leprechaun </h1>
+        </div>
+      </header>
+      <section class="profile">
+        <div class = "bio" >
+          <h3>Experience</h3>
+          <p>
+            I am a junior-level full stack (frontend and backend) developer seeking employment nationwide. I specialize in Java, Spring, and Angular. In my free time, I like to juggle, read, and play boardgames.
+          </p>
+          <p>
+            I am currently working on a Udacity Full Stack Nanodegree.
+          </p>
+        </div>
+        <h3> Featured Work</h3>
+        <div class="work">
+          <div class = "project col-md-3 col-sm-3 col-xs-5">
+            <img src="images/4way.png"  alt="image">
+            <h4>4waychess.com</h4>
+            <p>A website for playing chess with 4 armies</p>
           </div>
-
-
-          <h3 id="contact"> Contact Me </h3>
-          <br>
-          <a type="button" class="btn btn-facebook" href="http://facebook.com/lokor"> <span class="fa-facebook"> Facebook</span> </a>
-          <a type="button" class="btn btn-linkedin" href="https://www.linkedin.com/in/nrfowler" "> <span class="fa-linkedin"> LinkedIn</span>  </a>
-<div>
- <!-- <a type="button " class="btn btn-facebook "> <span class="fa-facebook "> </span> Send invitation </a>
-    <a href="http://www.gi.com " tyep="button " class="btn btn-github "> <span class="fa-github "> </span> Send invitation </a> -->
-</div>
-</div>
-</body>
+          <div class = "project col-md-3 col-sm-3 col-xs-5">
+            <img src="images/whatdo.jpg" alt="image">
+            <h4>WhatDo</h4>
+            <p>A C++ command line todo list manager</p>
+          </div>
+          <div class = "project col-md-3 col-sm-3 col-xs-5">
+            <img src="images/app.png" alt="image">
+            <h4>Future App Here</h4>
+            <p>Description of future project</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
