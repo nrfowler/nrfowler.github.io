@@ -1,0 +1,5 @@
+Summary:
+
+Details:
+changed links media query
+altered desc. of channit
