@@ -139,4 +139,17 @@ section h3 {
     flex-direction: column;
     align-items: center;
   }
+
+}
+@media (max-width: 420px) {
+  .btn-github {
+    visibility: hidden;
+    display: none;
+  }
+  .btn-facebook{
+    visibility: hidden;
+    display: none;
+  }
+
+
 }
