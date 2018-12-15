@@ -55,7 +55,7 @@ header {
   height: 123px;
   min-width: 100px;
 }
-.title{
+.title.col-md-7{
   padding-left: 0;}
 .work {
   display: -webkit-flex;
