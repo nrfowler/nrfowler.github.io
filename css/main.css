@@ -55,7 +55,8 @@ header {
   height: 123px;
   min-width: 100px;
 }
-
+.title{
+  padding-left: 0;}
 .work {
   display: -webkit-flex;
   display: flex;
