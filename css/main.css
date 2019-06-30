@@ -27,12 +27,7 @@ header {
   justify-content: space-between;
 }
 
-.container {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  font-family: 'Muli', sans-serif;
-}
+
 
 .links {
   display: -webkit-flex;
@@ -77,12 +72,7 @@ section h3 {
   background-image: url("../images/udacity_logo.png");
 }
 @media (max-width: 990px) {
-  .links {
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-  }
+
 }
 @media (max-width: 767.5px) {
 
